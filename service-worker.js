@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bookstore-app/precache-manifest.80eb8f00115f0a9df960583eb8be6180.js"
+  "/bookstore-app/precache-manifest.2808c79d39a1a29e9822ddbee319cc59.js"
 );
 
 self.addEventListener('message', (event) => {
