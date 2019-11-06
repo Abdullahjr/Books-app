@@ -2,10 +2,14 @@ import React from 'react';
 
 const Home = (props) => {
     return(
-        <div>
+        <div class="text-center" id="bookStore">
             <h1>Blue Bookstore</h1>
-            <p>Welcome to Blue Bookstore</p>
-        </div>
+            <div class="text-center">
+             <h2>Welcome to Blue Bookstore</h2>
+            </div>    
+        </div>  
+
+        
     )
 }
 export default Home;

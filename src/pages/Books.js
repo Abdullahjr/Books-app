@@ -14,8 +14,13 @@ export default class Books extends Component {
                 price={book.price}/>
     })
     return(
-      <div>
-        {bookList}
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 offset-md-3">
+
+            {bookList}
+          </div>
+        </div>
       </div>
     )
   }

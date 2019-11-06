@@ -11,4 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.bookStyle{
+  border: 10px;
+  margin: 5px;
+  padding: 2.5px;;
+}
+.text-center{
+  margin: 30px;
+  padding: 15px;
+}
+#bookStore{
+  color:darkblue ;
+}
