@@ -1,0 +1,12 @@
+
+User Stories.
+
+As a User I should be able to Add a new item to a list.
+
+As a User I should be able to Mark the item as complete/favorite/(watch, read, listen) later/flag/etc.
+
+As a User I should be able to Remove an item from a list.
+
+As a User I should be able to Clear/delete all items.
+
+As a User I should be able to Clear/delete only marked items.

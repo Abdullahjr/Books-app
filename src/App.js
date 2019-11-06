@@ -53,6 +53,7 @@ removeBookFave = (book)=> {
   const index = list.indexOf(book)
   list.splice(index, 1)
   this.setState({
+    
     favoriteBooks: list
   })
 }
@@ -90,7 +91,7 @@ removeAllCart = (book)=> {
         <Link to='/favorite'>Favorite</Link>{' | '}
         <Link to='/cart'>Cart</Link>
       </nav>
-      <div>
+      <div class="center-block">
         <Switch>
       <Route exact path='/' component={Home}/>
        <Route  path='/favorite' component={()=> <Favorite
@@ -100,7 +101,7 @@ removeAllCart = (book)=> {
         removeBookCart={this.removeBookCart} cartBooks={this.state.cartBooks} />} />
         <Route  path='/books' component={() => <Books books={this.state.books}
         addBookToFavorite={this.addBookToFavorite} 
-        addBookToCart={this.addBookToCart}/>}/>
+        addBookToCart={this.addBookToCart}/>}/> 
         <Route  component={Errors}/>
         </Switch>
       </div>

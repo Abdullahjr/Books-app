@@ -13,10 +13,8 @@ const Cart = (props)=> {
       })
       return(
           <div>
-              <h1>Favorite</h1>
-              <button onClick={()=>props.removeAllCart(lst)}>Delete All</button>
-  
-  
+              <h1>Cart</h1>
+              <button type="button" class="btn btn-link" onClick={()=>props.removeAllCart(lst)}>Delete All</button>
         {lst}
           </div>
       )

@@ -15,9 +15,7 @@ console.log(props.favoriteBooks);
     return(
         <div>
             <h1>Favorite</h1>
-            <button onClick={()=>props.removeAllFave(list)}>Delete All</button>
-
-
+            <button type="button" class="btn btn-link" onClick={()=>props.removeAllFave(list)}>Delete All</button>
       {list}
         </div>
     )

@@ -6,9 +6,9 @@ export default function Book(props) {
             <img src={props.img}></img>
             <h1>{props.title}</h1>
             <h2>{props.price}</h2>
-            <button onClick={() => props.addBookToFavorite(props.data)}>Add to Fav</button>
+            <button type="button" class="btn btn-info" onClick={() => props.addBookToFavorite(props.data)}>Add to Favorite</button>
             {'  '}
-            <button onClick={() => props.addBookToCart(props.data)}>Add to Cart</button>
+            <button type="button" class="btn btn-warning" onClick={() => props.addBookToCart(props.data)}>Add to Cart</button>
 
         </div>
     )
