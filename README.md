@@ -13,3 +13,5 @@ This app displays a list of IT books, and the the books can be moved to cart and
 <h2><a href="./src/images" alt="image">Wirerames</a> and <a href="./src/UserStories.text" alt="text"> User Stories</a>.</h2>
 
 <h2>Favorite functinality works</h2>
+<p>
+I liked how I can use the components in my app to perfome multible tasks</p> 
